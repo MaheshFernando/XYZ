@@ -1,4 +1,4 @@
-make_histogram <- function(x, mu=10, sigma=2) {
+make_histogram <- function(x, mu=10, sigma=1) {
   data = rnorm(x, mu, sigma)
   hist(data)
 }
