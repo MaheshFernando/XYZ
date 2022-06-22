@@ -2,7 +2,7 @@ library(tswge)
 #Question 7.1 (a)
 
 R0 = c(0.79,0.22,0.22,0.61)
-R1 = c(1,0.69,0.22,0.22)
+R1 = c(2,0.69,0.22,0.22)
 P = toeplitz(R1)
 P
 solve(P)%*%R0
